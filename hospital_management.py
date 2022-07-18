@@ -8,11 +8,6 @@ import time
 import datetime
 from tkinter import messagebox
 from tkinter import font
-
-# 'NAME': 'form_3',
-#         'USER':'postgres',
-#         'PASSWORD': '#Officer123',
-#         'HOST':'localhost'
 class hospital:
     def __init__(self , root):
         
@@ -37,7 +32,7 @@ class hospital:
         buttonframe = Frame(self.root , bd = 5 , padx = 5 , relief=RIDGE)
         buttonframe.place(x = 0 , y = 500 , width=1540 , height=50)
 
-        # ----------------------------- buttons -----------------------------
+        # ----------------------------- Table -----------------------------
         detailsframe = Frame(self.root , bd = 5 , padx = 5 , relief=RIDGE)
         detailsframe.place(x = 0 , y = 550 , width=1540 , height=240)
 
